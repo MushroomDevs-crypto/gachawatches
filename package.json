@@ -1,0 +1,42 @@
+{
+  "name": "project-lootbox",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "node server/index.js"
+  },
+  "dependencies": {
+    "@metaplex-foundation/js": "^0.20.1",
+    "@metaplex-foundation/mpl-token-metadata": "^3.4.0",
+    "@solana/spl-token": "^0.4.14",
+    "@solana/wallet-adapter-react": "^0.15.39",
+    "@solana/wallet-adapter-react-ui": "^0.9.39",
+    "@solana/wallet-adapter-wallets": "^0.19.37",
+    "@solana/web3.js": "^1.98.4",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pg": "^8.11.5",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "globals": "^16.5.0",
+    "vite": "npm:rolldown-vite@7.2.5"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.2.5"
+  }
+}
